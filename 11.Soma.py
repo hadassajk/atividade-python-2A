@@ -1,28 +1,11 @@
+#Funções
+#Funções soma
+def soma (a,b)
+   return a + b 
 
-def soma_pares_ate(numero):
-    
- """Calcule a soma dos numeros pares ate um determinado numero
+   valorA = int(input("Digite um valor:"))
+   valorB = int(input("Digite um valor:"))
 
- Args:
- 
- numero: o numero limite ate onde a soma sera calculado.
- 
- Returns:
- 
- A soma dos numeros pares.
- """
+   resultado = soma(valorA,valorB)
 
- soma = 0 
-contador = 2 
-while contador <= numero:
-    soma += contador 
-    contador += 2 
-return soma 
-
-# Obtendo o numero do usuario
-
- numero = int(input("Digite um numero :"))
-
-# Chamando a funçao e imprimindo o resultado
-resultado = soma_pares_ate(numero)
-print(f" A soma dos numeros pares ate {numero}  e : {resultado}"
+print(f"O resultado da soma = {resultado}")
